@@ -3,7 +3,7 @@ module Pepita
     @energia
   end
   
-  def reiniciar!
+  def self.reiniciar!
     @energia = 100
   end
 end
