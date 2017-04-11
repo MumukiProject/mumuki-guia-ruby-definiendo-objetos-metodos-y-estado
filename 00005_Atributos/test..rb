@@ -2,6 +2,10 @@ module Pepita
   def self.energia
     @energia
   end
+  
+  def reiniciar!
+    @energia = 100
+  end
 end
 
 describe 'Pepita' do
@@ -10,11 +14,13 @@ describe 'Pepita' do
   end
   
   it 'pierde 20 unidades de energía cuando vuela en círculos' do
+    Pepita.reiniciar!
     Pepita.volar_en_circulos!
     expect(Pepita.energia).to eq 80
   end
 
   it 'gana 10 unidades de energía cuando come una lombriz' do
+    Pepita.reiniciar!
     Pepita.comer_lombriz!
     expect(Pepita.energia).to eq 110
   end
