@@ -19,5 +19,6 @@ end
 > ```ruby
 ム Pepita.volar_en_circulos!
 ム Pepita.volar_en_circulos!
-ム Pepita.energia # Si el resultado te sorprende, en breve hablaremos de esto.
+ム Pepita.energia
 ```
+> Puede que el resultado te sorprenda, en breve hablaremos de esto.
