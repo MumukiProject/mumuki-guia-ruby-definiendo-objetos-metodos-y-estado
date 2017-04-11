@@ -9,4 +9,6 @@ module Norita
 end
 ```
 
+Sí, así de simple. :grin:
+
 > ¿Te animás a modificar nuestro código para crear a `Pepita`?
