@@ -14,7 +14,7 @@ module Pepita
 end
 ```
 
-> Una vez más, ya definimos por vos a `Pepita`. Probá, en orden, las siguientes consultas:
+> Una vez más, ya definimos a `Pepita` por vos. Probá, en orden, las siguientes consultas:
 >
 > ```ruby
 ム Pepita
