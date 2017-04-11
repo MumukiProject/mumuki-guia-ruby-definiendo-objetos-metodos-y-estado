@@ -14,5 +14,5 @@ Decimos que `Pepita` _conoce_ o _tiene_ un nivel de energía, que es variable, e
 
 Por otro lado, cuando `Pepita` recibe el mensaje `volar_en_circulos!`, su energía disminuye: se realiza una nueva **asignación** del atributo y pasa a valer lo que valía antes (o sea, `@energia`), menos `20`.
 
-> Con toda esta información, implementá el método `comer_lombriz!`, que provoca que `Pepita` gane `10` puntos de energía.
+> Con toda esta información, implementá la versión correcta del método `comer_lombriz!`, que provoca que `Pepita` gane `10` puntos de energía.
 
