@@ -1,1 +1,3 @@
-Te refrescamos la memoria: en la lección anterior `Pepita` sabía responder a los mensajes `comer_lombriz!`, `cantar!`, `volar_en_circulos!` y `energia`.
+Para que no tengas que volver a escribirla, pusimos por vos la definición de `Pepita` en la **Biblioteca**. :books:
+
+Siempre que te lo indiquemos, podrás usar los objetos de la Biblioteca como si los hubieras creado vos.
