@@ -21,4 +21,4 @@ end
 ム Pepita.volar_en_circulos!
 ム Pepita.energia
 ```
-> Puede que el resultado te sorprenda, en breve hablaremos de esto.
+> Puede que los resultados te sorprendan, en breve hablaremos de esto.
