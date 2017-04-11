@@ -17,9 +17,7 @@ end
 > Una vez más, ya definimos a `Pepita` por vos. Probá, en orden, las siguientes consultas:
 >
 > ```ruby
-ム Pepita
 ム Pepita.volar_en_circulos!
-ム Pepita
 ム Pepita.volar_en_circulos!
 ム Pepita.energia # Si el resultado te sorprende, en breve hablaremos de esto.
 ```
