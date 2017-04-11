@@ -1,4 +1,4 @@
-describe 'Pepita entiende' do
+describe 'Pepita entiende el mensaje: ' do
   it 'cantar!' do
     expect(Pepita).to respond_to :cantar!
   end
