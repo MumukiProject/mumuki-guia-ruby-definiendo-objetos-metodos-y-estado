@@ -1,0 +1,1 @@
+Te refrescamos la memoria: en la lección anterior `Pepita` sabía responder a los mensajes `comer_lombriz!`, `cantar!`, `volar_en_circulos!` y `energia`.
