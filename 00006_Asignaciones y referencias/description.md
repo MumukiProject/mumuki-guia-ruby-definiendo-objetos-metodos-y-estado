@@ -12,7 +12,7 @@ No, en absoluto. En objetos trabajamos con **referencias**: `energia` (un atribu
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/pepita-energia-100.png" width="300" />
 
-Luego, la operación de asignación cambia ese apuntador, que pasa a referenciar al `80`.
+Luego, la operación de asignación cambia ese apuntador, que pasa a referenciar al `80`:
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/pepita-energia-80.png" width="300" />
 
