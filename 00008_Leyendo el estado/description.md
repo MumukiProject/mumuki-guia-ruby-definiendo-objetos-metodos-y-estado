@@ -2,24 +2,24 @@ Antes te mostramos que si enviamos el mensaje `energia`, fallará:
 
 ```ruby
 ム  Pepita.energia
-pepita[energia=100] does not understand energia()
+undefined method `energia' for Pepita:Module (NoMethodError)
 ```
 
 El motivo es simple: **los atributos NO son mensajes**. 
 
-Entonces, ¿cómo podríamos consultar la energía de pepita? ¡Declarando un método, por supuesto!
+Entonces, ¿cómo podríamos consultar la energía de `Pepita`? ¡Declarando un método, por supuesto!
 
-```scala
-object pepita {
-   /*...atributos y método anteriores...*/
+```ruby
+module Pepita
+   #...atributos y métodos anteriores...
    
-   method energia() {
-      return energia
-   }
-}
+   def energia
+      @energia
+   end
+end
 ```
 
-> Ya agregamos el método `energía` por vos. Probá en la consola ahora las siguientes consultas: 
+> Ya agregamos el método `energia` por vos. Probá en la consola ahora las siguientes consultas: 
 >
 > * `ム Pepita.energia`
 > * `ム Pepita.energia = 120`
