@@ -1,3 +1,9 @@
+module Obera
+end
+
+module Iruya
+end
+
 module Pepita
   @energia = 100
   @ciudad = Obera
@@ -25,10 +31,4 @@ module Pepita
     @ciudad = una_ciudad
     return
   end
-end
-
-module Obera
-end
-
-module Iruya
 end
