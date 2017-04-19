@@ -21,9 +21,10 @@ end
 
 > Ya agregamos el método `energia` por vos. Probá en la consola ahora las siguientes consultas: 
 >
-> * `ム Pepita.energia`
-> * `ム Pepita.energia = 120`
-> * `ム energia`
-
+> ```ruby
+> ム Pepita.energia
+> ム Pepita.energia = 120
+> ム energia
+```
 > 
 > ¿Todas las consultas funcionan? ¿Por qué?

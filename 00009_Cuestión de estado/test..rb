@@ -8,7 +8,7 @@ describe 'Estado de' do
   end
 
   it 'RolamotoC115' do
-    expect(estado_rolamotoc115).to eq []
+    expect(estado_rolamotoC115).to eq []
   end  
   
   it 'Enrique' do
