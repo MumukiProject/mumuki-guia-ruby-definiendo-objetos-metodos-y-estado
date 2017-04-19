@@ -1,5 +1,3 @@
-/*[IgnoreContentOnQuery]*/
-
 module Pepita
   @energia = 100
   @ciudad = Obera
