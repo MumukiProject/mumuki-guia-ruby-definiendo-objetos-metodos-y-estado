@@ -14,7 +14,9 @@ Lo que podemos observar es que su estado está conformado por `ciudad` y `energi
 
 El estado es siempre **privado**, es decir, solo el objeto puede utilizar sus atributos, lo que explica por qué las siguiente consultas que hicimos antes fallaban: 
 
-* `ム Pepita.energia = 100`
-* `ム energia`
+```ruby
+ム Pepita.energia = 100
+ム energia
+```
 
 > Veamos si se entiende: mirá los objetos en la solapa de código adicional y escribí el estado de cada uno.
