@@ -1,11 +1,9 @@
-interfaz_pepita = %w(
+estado_pepita = %w(
   energia
-  cantar!
-  comer_lombriz!
-  volar_en_circulos!
+  ciudad
 )
   
-interfaz_norita = %w(
+estado_ = %w(
   #...completar acá...
 )
   

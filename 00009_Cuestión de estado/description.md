@@ -2,12 +2,12 @@ Los objetos pueden tener múltiples atributos y al conjunto de estos atributos s
 Por ejemplo, si miramos a `Pepita`:
 
 ```ruby
-module Pepita {
+module Pepita
   @energia = 100
   @ciudad = Obera
   
   #...etc...
-}
+end
 ```
 
 Lo que podemos observar es que su estado está conformado por `ciudad` y `energia`, dado que son sus atributos. 
@@ -17,4 +17,4 @@ El estado es siempre **privado**, es decir, solo el objeto puede utilizar sus at
 * `ム Pepita.energia = 100`
 * `ム energia`
 
-> Veamos si se entiende: mirá los objetos en la solapa de código adicional y decinos el estado de cada uno.
+> Veamos si se entiende: mirá los objetos en la solapa de código adicional y escribí el estado de cada uno.
