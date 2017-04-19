@@ -1,11 +1,11 @@
+module Obera
+  #...más cosas que ahora no interesan...
+end
+
 module Pepita
   @energia = 100
   @ciudad = Obera
   
-  #...más cosas que ahora no interesan...
-end
-
-module Obera
   #...más cosas que ahora no interesan...
 end
 
