@@ -18,7 +18,7 @@ module RolamotoC115
 end
 
 module Enrique
-  @celular = Nokia1100
+  @celular = Kiano1100
   @dinero_en_billetera = 13
   @frase_favorita = 'la juventud está perdida'
 end
