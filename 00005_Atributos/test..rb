@@ -13,15 +13,15 @@ describe 'Pepita' do
     expect(Pepita.energia).to eq 100
   end
   
-  it 'pierde 20 unidades de energía cuando vuela en círculos' do
+  it 'pierde 10 unidades de energía cuando vuela en círculos' do
     Pepita.reiniciar!
     Pepita.volar_en_circulos!
-    expect(Pepita.energia).to eq 80
+    expect(Pepita.energia).to eq 90
   end
 
-  it 'gana 10 unidades de energía cuando come una lombriz' do
+  it 'gana 20 unidades de energía cuando come una lombriz' do
     Pepita.reiniciar!
     Pepita.comer_lombriz!
-    expect(Pepita.energia).to eq 110
+    expect(Pepita.energia).to eq 120
   end
 end
