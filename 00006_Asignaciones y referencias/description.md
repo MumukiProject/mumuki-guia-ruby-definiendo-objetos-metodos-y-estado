@@ -14,7 +14,7 @@ No, en absoluto. En objetos trabajamos con **referencias**: `energia` (un atribu
 
 Luego, la operación de asignación cambia ese apuntador, que pasa a referenciar al `90`:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/pepita-energia-80.png" width="300" />
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/pepita-energia-90.png" width="300" />
 
 En este caso se da una particularidad: el objeto asignado a la referencia es el resultado de **enviar el mensaje** `-` al objeto apuntado originalmente por la referencia: `@energia = @energia - 10`. Y como esta operación es tan común, se puede escribir de una forma más corta: `@energia -= 10`.
 
