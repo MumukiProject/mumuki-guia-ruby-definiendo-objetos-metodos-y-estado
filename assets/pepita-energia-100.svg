@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="pepita-energia-100.svg">
+   sodipodi:docname="pepita-energia-100.svg"
+   inkscape:export-filename="/home/faloi/workspace/mumuki/guias/2-definiendo-objetos-metodos-y-estado/assets/pepita-energia-100.png"
+   inkscape:export-xdpi="40.639999"
+   inkscape:export-ydpi="40.639999">
   <defs
      id="defs4">
     <marker
@@ -57,10 +60,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.41996582"
-     inkscape:cx="477.66697"
+     inkscape:cx="71.68155"
      inkscape:cy="143.54157"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4259"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -118,7 +121,7 @@
            y="690.42792"
            x="846.54462"
            id="tspan4257"
-           sodipodi:role="line">80</tspan></text>
+           sodipodi:role="line">90</tspan></text>
     </g>
     <g
        id="g4306"
