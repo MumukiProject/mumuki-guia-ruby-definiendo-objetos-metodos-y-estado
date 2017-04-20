@@ -4,10 +4,10 @@ Si por ejemplo la distancia entre dos ciudades fuese de 1200 kilómetros, `Pepit
 
 Aunque en el mapa real no sea así, imaginaremos que las ciudades están ubicadas en línea recta, para facilitar los cálculos:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/ciudades.png" width="300" />
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/ciudades.png" width="400" />
 
 > Sabiendo esto: 
 > 
-> * Agregar el objeto que representa a `BuenosAires`.
-> * Agregar a `Obera` e `Iruya` un mensaje `kilometro` que devuelva la altura a la que se encuentran, según el esquema.
-> * Agregar al método `volar_hacia!` de `Pepita` la lógica necesaria para hacer el cálculo y alterar la energía.
+> * Creá el objeto que representa a `BuenosAires`.
+> * Agregá a `Obera`, `Iruya` y `BuenosAires` un mensaje `kilometro` que devuelva la altura a la que se encuentran, según el esquema.
+> * Modificá el método `volar_hacia!` de `Pepita` la lógica necesaria para hacer el cálculo y alterar la energía.
