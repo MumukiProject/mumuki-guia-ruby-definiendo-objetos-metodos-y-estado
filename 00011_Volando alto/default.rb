@@ -1,11 +1,17 @@
 module Obera
+  def kilometro
+    # completar acá...
+  end
 end
 
 module Iruya
+  def kilometro
+    # completar acá...
+  end  
 end
 
 module Pepita
-  @energia = 100
+  @energia = 1000
   @ciudad = Obera
   
   def self.energia
