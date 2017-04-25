@@ -14,6 +14,10 @@ describe 'Pepita' do
     Pepita.reiniciar!
   end
   
+  it 'entiende distancia_a' do
+    expect(Pepita).to respond_to :distancia_a
+  end
+  
   it 'puede calcular la distancia hasta Iruya, estando en Oberá' do
     expect(Pepita.distancia_a(Iruya)).to eq 670
   end

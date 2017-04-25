@@ -15,7 +15,7 @@ Esto se conoce como _delegar una responsabilidad_, o simplemente, **delegar**: l
 
 A veces nos va a pasar que un objeto tiene un método muy complejo, y nos gustaría subdividirlo en problemas más chicos que **el mismo objeto** puede resolver. La buena noticia es que un objeto puede enviarse un mensaje a sí mismo fácilmente: en ese caso, el objeto receptor del mensaje será `self`. 
 
-```
+```ruby
 module Pepita
   # ...etc...
   
@@ -24,7 +24,7 @@ module Pepita
     @ciudad = destino
   end
   
-  def self.gastar_energia(destino)
+  def self.gastar_energia!(destino)
     @energia -= (@ciudad.kilometro - destino.kilometro).abs / 2
   end
 end
