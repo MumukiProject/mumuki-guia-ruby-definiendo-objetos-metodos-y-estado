@@ -1,9 +1,9 @@
 module Pepita
-  def ciudad=(una_ciudad)
+  def self.ciudad=(una_ciudad)
     @ciudad = una_ciudad
   end
   
-  def reiniciar!
+  def self.reiniciar!
     @ciudad = Obera
     @energia = 1000
   end
