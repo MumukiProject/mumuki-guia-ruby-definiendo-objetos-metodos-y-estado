@@ -42,7 +42,7 @@ describe 'Pepita' do
   
   it 'no pierde energía si está en Oberá y vuela a Oberá' do
     Pepita.volar_hacia!(Obera)
-    expect(Pepita.energia).to eq 100
+    expect(Pepita.energia).to eq 1000
   end
   
   it 'pierde 520 unidades de energía si está en Buenos Aires y vuela a Oberá' do
