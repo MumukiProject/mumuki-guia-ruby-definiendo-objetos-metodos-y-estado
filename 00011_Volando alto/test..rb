@@ -21,13 +21,13 @@ end
 
 describe 'Obera' do
   it 'sabe en qué kilómetro está' do
-    expect(BuenosAires.kilometro).to eq 1040
+    expect(Obera.kilometro).to eq 1040
   end
 end
 
 describe 'Iruya' do
   it 'sabe en qué kilómetro está' do
-    expect(BuenosAires.kilometro).to eq 1710
+    expect(Iruya.kilometro).to eq 1710
   end
 end
 
