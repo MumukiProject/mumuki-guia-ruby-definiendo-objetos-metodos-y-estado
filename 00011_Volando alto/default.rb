@@ -1,11 +1,11 @@
 module Obera
-  def kilometro
+  def self.kilometro
     # completar acá...
   end
 end
 
 module Iruya
-  def kilometro
+  def self.kilometro
     # completar acá...
   end  
 end
