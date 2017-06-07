@@ -8,3 +8,5 @@ Ah, pero también dijimos que `Pepita` podía volar a diferentes ciudades: `Iruy
 > * un método `volar_hacia!` en `Pepita`, que tome como argumento otra ciudad y haga lo necesario.
 
 Para facilitarte un poco la tarea, te dejamos en el editor tu solución del ejercicio anterior.
+
+:warning: **Importante:** por una limitación de Ruby, tenés que sí o sí crear a las ciudades **antes** que a `Pepita`, ya que si no fallará al ejecutar.
