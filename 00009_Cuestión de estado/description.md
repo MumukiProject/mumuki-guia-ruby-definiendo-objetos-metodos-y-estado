@@ -19,4 +19,4 @@ El estado es siempre **privado**, es decir, solo el objeto puede utilizar sus at
 ム energia
 ```
 
-> Veamos si se entiende: mirá los objetos en la solapa de código adicional y escribí el estado de cada uno.
+> Veamos si se entiende: mirá los objetos en la solapa **Biblioteca** y escribí el estado de cada uno.
