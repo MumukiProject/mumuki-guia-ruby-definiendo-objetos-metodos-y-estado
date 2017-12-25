@@ -1,4 +1,0 @@
----
-expectations:
-- binding: gastar_energia
-  inspection: Uses:distancia_a
