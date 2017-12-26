@@ -19,7 +19,7 @@ A veces nos va a pasar que un objeto tiene un método muy complejo, y nos gustar
 module Pepita
   # ...etc...
   
-  def volar_hacia!(destino)
+  def self.volar_hacia!(destino)
     self.gastar_energia!(destino)
     @ciudad = destino
   end

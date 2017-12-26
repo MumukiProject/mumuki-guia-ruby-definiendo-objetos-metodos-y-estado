@@ -22,7 +22,7 @@ module Pepita
     @energia -= 10
   end
   
-  def volar_hacia!(destino)
+  def self.volar_hacia!(destino)
     self.gastar_energia!(destino)
     @ciudad = destino
   end
