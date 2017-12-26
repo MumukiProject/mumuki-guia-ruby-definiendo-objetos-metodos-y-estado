@@ -2,5 +2,5 @@
 expectations:
 - binding: gastar_energia!
   inspection: Calls:distancia_a
-- binding: "*"
-  inspection: Declares:distancia_a
+- binding: distancia_a
+  inspection: Declares
