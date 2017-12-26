@@ -2,5 +2,5 @@
 expectations:
 - binding: gastar_energia!
   inspection: Calls:distancia_a
-- binding: hola(_)
+- binding: hola(param)
   inspection: Calls:chaua
