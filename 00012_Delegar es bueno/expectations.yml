@@ -3,4 +3,4 @@ expectations:
 - binding: gastar_energia!
   inspection: Calls:distancia_a
 - binding: hola
-  inspection: Calls:chau
+  inspection: Calls:chaua
