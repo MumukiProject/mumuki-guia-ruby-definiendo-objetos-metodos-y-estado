@@ -1,6 +1,4 @@
 ---
 expectations:
 - binding: gastar_energia!
-  inspection: Calls:distancia_a
-- binding: gastar_energia!
   inspection: Uses:distancia_a
