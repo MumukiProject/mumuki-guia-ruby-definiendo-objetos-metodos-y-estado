@@ -1,7 +1,8 @@
 ---
+locale: es
 tags: []
 layout: input_right
-editor: code
+editor: 0
 type: playground
 extra_visible: true
 manual_evaluation: false
