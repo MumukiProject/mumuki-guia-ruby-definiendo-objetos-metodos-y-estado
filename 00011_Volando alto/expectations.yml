@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Obera
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Iruya
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: BuenosAires
+  inspection: Not:Assigns
