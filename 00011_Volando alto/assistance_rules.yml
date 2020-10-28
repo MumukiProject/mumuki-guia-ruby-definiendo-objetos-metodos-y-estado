@@ -1,0 +1,10 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Obera Not:Assigns
+    - BuenosAires Not:Assigns
+    - Iruya Not:Assigns
+  then: El método `kilometro` solo debe retornar el número del kilómetro. No guardar
+    el valor en un atributo
