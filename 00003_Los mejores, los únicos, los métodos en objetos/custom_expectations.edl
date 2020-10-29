@@ -1,2 +1,2 @@
-expectation "Pepita se define solo una vez":
+expectation "Hay que definir a Pepita solo una vez":
   count(declares object `Pepita`) = 1;

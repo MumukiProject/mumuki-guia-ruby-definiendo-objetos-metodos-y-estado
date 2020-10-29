@@ -1,0 +1,7 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    error_contains: expecting keyword_end
+  then: Parece que falta un `end` en algún lado. Fijate qué objeto o método quedó
+    sin cerrar
