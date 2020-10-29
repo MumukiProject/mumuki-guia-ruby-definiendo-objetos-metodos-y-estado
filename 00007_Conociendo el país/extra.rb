@@ -10,5 +10,5 @@ end
 module Calamuchita
 end
 
-module Usuahia
+module Ushuaia
 end
