@@ -9,14 +9,6 @@ module Pepita
 end
 
 describe '' do
-  it 'Iruya existe' do
-    expect(Iruya).to be
-  end
-  
-  it 'Obera existe' do
-    expect(Obera).to be
-  end
-  
   context 'Pepita' do
     it 'empieza con 100 de energía' do
       expect(Pepita.energia).to eq 100
