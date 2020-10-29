@@ -1,2 +1,2 @@
 expectation "Pepita se define solo una vez":
-  count(declares `Pepita`) = 1;
+  count(declares object `Pepita`) = 1;
