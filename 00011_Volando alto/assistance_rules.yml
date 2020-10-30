@@ -10,3 +10,9 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     error_contains: expecting keyword_end
   then: Falta un `end` en algún lado. Fijate qué objeto o método quedó sin cerrar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Iruya Not:Assigns
+  then: El método `kilometro` solo debe retornar la altura de la ciudad, no guardar
+    el valor en un atributo
