@@ -4,6 +4,8 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - Obera Not:Assigns
+    - Iruya Not:Assigns
+    - BuenosAires Not:Assigns
   then: El método `kilometro` solo debe retornar la altura de la ciudad, no guardar
     el valor en un atributo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
