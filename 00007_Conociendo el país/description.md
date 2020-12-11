@@ -1,4 +1,4 @@
-Hasta ahora ahora los métodos que vimos solo producían un efecto. Si bien solo pueden devolver una cosa, ¡pueden producir varios efectos!
+Hasta ahora los métodos que vimos solo producían un efecto. Si bien solo pueden devolver una cosa, ¡pueden producir varios efectos!
 
 Solo tenés que poner uno debajo del otro de la siguiente forma:
 
