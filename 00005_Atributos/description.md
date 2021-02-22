@@ -14,5 +14,10 @@ Decimos que `Pepita` _conoce_ o _tiene_ un nivel de energía, que es variable, e
 
 Por otro lado, cuando `Pepita` recibe el mensaje `volar_en_circulos!`, su energía disminuye: se realiza una nueva **asignación** del atributo y pasa a valer lo que valía antes (o sea, `@energia`), menos `10`.
 
-> Sabiendo esto, implementá la versión correcta del método `comer_lombriz!`, que provoca que `Pepita` gane `20` puntos de energía.
+Como la operación `@energia = @energia - 10` es tan común, se puede escribir `@energia -= 10`. Como te imaginarás, también se puede hacer con la suma. :wink:
+
+> Sabiendo esto:
+> 
+* cambiá la definición del método `volar_en_circulos!` para que utilice la expresión simplificada;
+* definí la versión correcta del método `comer_lombriz!`, que provoca que `Pepita` gane `20` puntos de energía;
 
