@@ -1,6 +1,6 @@
 _¿Otra vez `undefined method`? ¿Y ahora qué falta?_ :rage:
 
-Para que un objeto entienda un mensaje debemos "enseñarle" cómo hacerlo, y para ello es necesario declarar un **método** dentro de ese objeto:
+Para que un objeto entienda un mensaje debemos "enseñarle" cómo hacerlo, y para ello es necesario definir un **método** dentro de ese objeto:
 
 ```ruby
 module Pepita
