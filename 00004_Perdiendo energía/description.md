@@ -1,4 +1,4 @@
-Acabamos de aprender una de las reglas fundamentales del envío de mensajes: si a un objeto no le decímos **cómo** reaccionar ante un mensaje, y se lo envíamos, no lo entenderá y nuestro programa se romperá. Y la forma de hacer esto es **declarando un método**.
+Acabamos de aprender una de las reglas fundamentales del envío de mensajes: si a un objeto no le decímos **cómo** reaccionar ante un mensaje, y se lo envíamos, no lo entenderá y nuestro programa se romperá. Y la forma de hacer esto es **definiendo un método**.
 
 Ahora bien, los métodos que definiste recién no eran muy interesantes: se trataba de _métodos vacíos_ que evitaban que el programa se rompiera, pero no hacían nada. En realidad, `Pepita` tiene energía y los diferentes mensajes que entiende deberían modificarla.
 
