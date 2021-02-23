@@ -7,7 +7,7 @@ undefined method `energia' for Pepita:Module (NoMethodError)
 
 El motivo es simple: **los atributos NO son mensajes**. 
 
-Entonces, ¿cómo podríamos consultar la energía de `Pepita`? Declarando un método, ¡por supuesto!
+Entonces, ¿cómo podríamos consultar la energía de `Pepita`? Definiendo un método, ¡por supuesto!
 
 ```ruby
 module Pepita
