@@ -2,7 +2,7 @@ Inicialmente en el ambiente solo existen objetos simples como números, strings 
 
 Pero como es imposible que quienes diseñan un lenguaje puedan precargar objetos para solucionar todos nuestros problemas, también nos dan la posibilidad de crear los nuestros. :smiley:
 
-En Ruby, si quisiéramos **declarar** a `Norita`, escribiríamos el siguiente código:
+En Ruby, si quisiéramos **definir** a `Norita`, escribiríamos el siguiente código:
 
 ```ruby
 module Norita
