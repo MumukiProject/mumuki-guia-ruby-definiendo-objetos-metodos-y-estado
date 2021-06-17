@@ -8,5 +8,5 @@ rules:
     destino, no debe guardar ese valor en una variable"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    error_contains: expecting keyword_end
+    error_contains: expecting end
   then: Falta un `end` en algún lado. Fijate qué objeto o método quedó sin cerrar
