@@ -2,7 +2,7 @@ Volar hacia un cierto punto no es tarea tán fácil: en realidad, `Pepita` pierd
 
 Aunque en el mapa real no sea así, imaginaremos que las ciudades están ubicadas en línea recta, para facilitar los cálculos:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/ciudades.png" width="400" />
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-definiendo-objetos-metodos-y-estado/master/assets/ciudades.png" width="400" alt="Tres círculos en una recta horizontal. El primero es Buenos Aires en el kilómetro cero, el segundo es Oberá en el kilómetro mil cuarenta y el tercer es Iruya en el kilómetro mil setecientos diez"/>
 
 Por ejemplo, si `Pepita` está en `Obera` y quiere volar a `Iruya` debe recorrer 670 kilómetros, por lo que perderá 335 unidades de energía. :sweat:
 
